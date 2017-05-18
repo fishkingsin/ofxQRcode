@@ -1,1 +1,5 @@
 example/bin/exampleDebug.app
+
+*.xcuserstate
+
+*.xcbkptlist
