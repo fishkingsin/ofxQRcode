@@ -14,7 +14,7 @@ ofxQRcode::fetch(const std::string& data, size_t size, size_t margin, bool urlEn
     << "cht=qr&"                              // chart type: QR Code
     << "chld=L|" << margin << "&"             // Error correction [L,M,Q,H], margin
     << "choe=UTF-8&"                          // Encoding
-    << "chl=" << data;                        // QR code data
+    << "chl=" << _data;                        // QR code data
     
     
     ofRegisterURLNotification(this);
